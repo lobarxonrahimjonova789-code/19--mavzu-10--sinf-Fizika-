@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TOVUSH TO‘LQINLARI</title>
+<style>
+:root{--p1:#18052f;--p2:#4b0c70;--a:#ff4fd8;--g:#a84cff;--text:#f7fbff;--muted:#cbd9e4}
+*{box-sizing:border-box} body{margin:0;color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;background:
+radial-gradient(circle at 15% 10%,var(--g),transparent 28%),radial-gradient(circle at 90% 20%,#ffffff10,transparent 25%),
+linear-gradient(135deg,var(--p1),var(--p2));background-attachment:fixed;overflow-x:hidden}
+body:after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.16;background-image:linear-gradient(115deg,transparent 48%,#fff 49%,transparent 50%),linear-gradient(25deg,transparent 48%,#fff 49%,transparent 50%);background-size:90px 90px}
+header{position:relative;min-height:360px;padding:45px 6%;display:flex;align-items:center;overflow:hidden;border-bottom:1px solid #fff2}
+.hero{position:absolute;inset:0;opacity:.58;pointer-events:none} .hero svg{width:100%;height:100%}
+.head{position:relative;z-index:2;max-width:720px} .tag{display:inline-block;background:#ffffff18;border:1px solid #ffffff35;border-radius:99px;padding:8px 14px;font-weight:800;backdrop-filter:blur(8px)}
+h1{font-size:clamp(34px,6vw,64px);line-height:1;margin:18px 0 10px;text-shadow:0 8px 30px #0007} header p{font-size:18px;color:var(--muted);max-width:650px}
+nav{position:sticky;top:0;z-index:10;display:flex;gap:8px;overflow:auto;padding:12px 5%;background:#03111dcc;backdrop-filter:blur(14px);border-bottom:1px solid #fff2}
+nav button,.btn{border:1px solid #ffffff22;background:#ffffff10;color:white;border-radius:12px;padding:11px 15px;font-weight:750;cursor:pointer;white-space:nowrap}nav button.active,.btn.primary{background:var(--a);box-shadow:0 0 25px #0004}
+main{max-width:1180px;margin:auto;padding:28px 5% 60px}section{display:none}section.active{display:block}
+.card{background:linear-gradient(145deg,#ffffff14,#ffffff07);border:1px solid #ffffff20;border-radius:24px;padding:24px;margin:18px 0;box-shadow:0 18px 50px #0005;backdrop-filter:blur(13px)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}.tile{padding:18px;border-radius:18px;background:#00000020;border:1px solid #fff1}
+.callout{padding:16px;border-radius:17px;background:#ffffff0d;border-left:5px solid var(--a);line-height:1.65}
+.formula{font-size:clamp(21px,3vw,34px);font-weight:900;text-align:center;padding:18px;border-radius:16px;background:#020912aa;margin:14px 0}
+canvas{width:100%;height:340px;border-radius:18px;background:#020a14aa;border:1px solid #fff2;display:block}
+.controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:15px 0}input[type=range]{accent-color:var(--a);width:190px}
+.small{color:var(--muted)} .q{padding:15px 0;border-bottom:1px solid #fff2}.opt{display:block;padding:9px;margin:6px 0;border:1px solid #fff2;border-radius:10px;cursor:pointer}
+table{width:100%;border-collapse:collapse}th,td{padding:10px;border-bottom:1px solid #fff2;text-align:left}th{background:#ffffff10}
+footer{text-align:center;color:#aebfcc;padding:30px}@media(max-width:650px){header{min-height:320px}canvas{height:260px}.card{padding:17px}}
+</style></head>
+<body>
+<header><div class="hero"><svg viewBox="0 0 1200 500" preserveAspectRatio="none">
+<defs><linearGradient id="a" x1="0" x2="1"><stop stop-color="#ff4fd8"/><stop offset=".5" stop-color="#9b4dff"/><stop offset="1" stop-color="#3b1682"/></linearGradient></defs>
+<circle cx="950" cy="220" r="155" fill="none" stroke="#ff9bea" stroke-width="5" opacity=".4"/><circle cx="950" cy="220" r="105" fill="none" stroke="#c68bff" stroke-width="5" opacity=".5"/><circle cx="950" cy="220" r="55" fill="#ff5adf" opacity=".3"/>
+<path d="M0 260 L60 260 L90 150 L125 370 L160 215 L200 305 L240 260 L300 260 L330 100 L365 410 L405 210 L440 310 L480 260 L540 260 L570 130 L605 390 L640 210 L680 310 L720 260 L780 260 L810 170 L845 350 L880 260 L1200 260" fill="none" stroke="url(#a)" stroke-width="8"/>
+</svg></div><div class="head"><span class="tag">10-SINF FIZIKA • O‘QITUVCHI UCHUN</span><h1>TOVUSH TO‘LQINLARI</h1><p>19-MAVZU • Binafsha–pushti audio to‘lqinlari uslubidagi interaktiv elektron dars</p></div></header>
+<nav><button onclick="show(0)">🏠 Bosh sahifa</button><button onclick="show(1)">📚 Nazariya</button><button onclick="show(2)">🎛 Simulyator</button><button onclick="show(3)">🧮 Formulalar</button><button onclick="show(4)">🧪 Tajriba</button><button onclick="show(5)">📝 Test</button></nav><main>
+<section><div class="card"><h2>🔊 Tovush to‘lqinlari</h2><div class="callout">Tovush — elastik muhitda tarqaladigan mexanik to‘lqin. Tovushning tarqalishi uchun muhit kerak; vakuumda tovush tarqalmaydi.</div><div class="grid"><div class="tile"><h3>Chastota</h3><p>Tovushning baland-pastligini belgilashda muhim.</p></div><div class="tile"><h3>Amplituda</h3><p>Tebranish kattaligi; tovushning kuchliligi bilan bog‘liq.</p></div><div class="tile"><h3>Tembr</h3><p>Bir xil chastotali manbalarni farqlashga yordam beradi.</p></div></div></div></section>
+<section><div class="card"><h2>📚 Tovush haqida</h2><p>Tovush havoda, suvda va qattiq jismlarda turli tezliklarda tarqaladi. 20 °C atrofidagi havoda tovush tezligi taxminan 343 m/s.</p><table><tr><th>Diapazon</th><th>Chastota</th><th>Misol</th></tr><tr><td>Infratovush</td><td>≈ 20 Hz dan past</td><td>Tabiiy katta masshtabli tebranishlar</td></tr><tr><td>Eshitiladigan</td><td>≈ 20 Hz–20 kHz</td><td>Inson qulog‘i</td></tr><tr><td>Ultratovush</td><td>≈ 20 kHz dan yuqori</td><td>UZI, sonar, sanoat</td></tr></table></div></section>
+<section><div class="card"><h2>🎛 Tovush simulyatori</h2><div class="controls"><label>Chastota <input id="f19" type="range" min="1" max="12" value="4"></label><label>Amplituda <input id="a19" type="range" min="10" max="90" value="45"></label><button class="btn primary" onclick="tone19()">🔊 Eshitish</button></div><canvas id="cv19"></canvas><p class="small">Chastota oshirilganda to‘lqinlar zichlashadi; amplituda oshirilganda grafik balandligi ortadi.</p></div></section>
+<section><div class="card"><h2>🧮 Formulalar</h2><div class="grid"><div class="tile"><div class="formula">v = λν</div><p>Tovush tezligi.</p></div><div class="tile"><div class="formula">T = 1/ν</div><p>Davr va chastota bog‘lanishi.</p></div><div class="tile"><div class="formula">s = vt/2</div><p>Aks-sado orqali masofa topishda borib-qaytish hisobga olinadi.</p></div></div></div></section>
+<section><div class="card"><h2>🧪 Tovush tajribalari</h2><div class="grid"><div class="tile">🎤 Mikrofon — tovushni elektr signaliga aylantirish.</div><div class="tile">🔊 Karnay — elektr signalini tovush tebranishiga aylantirish.</div><div class="tile">🏔 Aks-sado — qaytgan tovush.</div><div class="tile">🩺 UZI — ultratovushdan foydalanish.</div></div></div></section>
+<section><div class="card"><h2>📝 Mustahkamlash testi</h2><div class="q">1. Tovush qanday to‘lqin?<label class="opt"><input name="q19a" type="radio"> Mexanik</label><label class="opt"><input name="q19a" type="radio"> Elektromagnit</label></div><div class="q">2. 20 kHz dan yuqori tovush?<label class="opt"><input name="q19b" type="radio"> Ultratovush</label><label class="opt"><input name="q19b" type="radio"> Infratovush</label></div><button class="btn primary" onclick="alert('To‘g‘ri javoblar: 1-A, 2-A')">Tekshirish</button></div></section>
+</main><footer>Interaktiv elektron dars vositasi • Offline HTML • Proyektor va interaktiv doskaga mos</footer>
+<script>
+function show(i){document.querySelectorAll('section').forEach((s,k)=>s.classList.toggle('active',k===i));document.querySelectorAll('nav button').forEach((b,k)=>b.classList.toggle('active',k===i));window.scrollTo({top:0,behavior:'smooth'})}show(0);
+let t19=0;function d19(){let c=document.getElementById('cv19'),x=c.getContext('2d'),w=c.clientWidth,h=c.clientHeight,d=devicePixelRatio||1;c.width=w*d;c.height=h*d;x.setTransform(d,0,0,w?d:d,0,0);x.clearRect(0,0,w,h);let f=+f19.value,a=+a19.value;x.strokeStyle='#ff62e8';x.lineWidth=4;x.beginPath();for(let i=0;i<w;i+=3){let y=h/2+a*Math.sin(i*.025*f-t19);i?x.lineTo(i,y):x.moveTo(i,y)}x.stroke();t19+=.04;requestAnimationFrame(d19)}d19();function tone19(){let C=new AudioContext(),o=C.createOscillator(),g=C.createGain();o.frequency.value=100+ +f19.value*300;g.gain.value=.03;o.connect(g);g.connect(C.destination);o.start();setTimeout(()=>{o.stop();C.close()},700)}
+</script></body></html>
